@@ -127,4 +127,10 @@ span.st-single-tab.upcoming {
 span.st-single-tab.upcoming.active {
   border-color: #f6a2b0;
 }
+
+@media only screen and (max-width: 767px) {
+  .st-tabs{
+    width: 100%;
+  }
+}
 </style>
